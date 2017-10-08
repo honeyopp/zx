@@ -1,0 +1,147 @@
+	@media{
+		.nav nav-tabs{
+			margin-top: 40px;
+		}
+	}
+	@media{.tab-pane fade in active {
+		margin:0px 40px;
+	width: 1000px;
+	overflow: hidden;
+		}
+	}
+	@media{
+		.nav nav-tabs li a{
+			line-height: 40px;
+		}
+	}
+	.left{
+	float: left;
+	margin-left: 20px;
+	/*border: 1px solid #868686;*/
+	height: 500px;
+		}
+	.left>div:first-child{
+
+	line-height: 40px;
+	}
+	
+.left>div:first-child>img{
+	width: 80px;
+	height: 73.4px;
+}
+.left>div:nth-child(2){
+	line-height: 40px;
+}
+.left>div:nth-child(2)>ul>li{
+	width: 144px;
+	text-align: right;
+}
+.left>div:nth-child(2)>ul>li:nth-child(2)>i{
+	display: block;
+    width: 28px;
+    height: 39px;
+    background: url(/home/person/images/uc-ico.png) 0px 11px;
+    position: absolute;
+    top:261px;
+}
+.left>div:nth-child(2)>ul>li:nth-child(3)>i{
+    display: block;
+    width: 28px;
+    height: 26px;
+    background: url(/home/person/images/uc-ico.png) 0px -34px;
+    position: absolute;
+    top: 311px;
+}
+.nav{
+/*	margin:0px 40px;
+	width: 1000px;*/
+	/*overflow: hidden;*/
+}
+
+.left>div:nth-child(2)>ul>li:nth-child(4)>i{
+    display: block;
+    width: 28px;
+    height: 26px;
+    background: url(/home/person/images/uc-ico.png) 0px -66px;
+    position: absolute;
+    top: 353px;
+}
+.left>div:nth-child(2)>ul>li:nth-child(5)>i{
+    display: block;
+    width: 28px;
+    height: 26px;
+    background: url(/home/person/images/uc-ico.png) 0px -132px;
+    position: absolute;
+    top: 395px;
+}
+.right{
+	float: left;
+	margin-left: 28px;
+	line-height: 80px;
+	position: relative;
+}
+.right>h4>a{
+	display: inline-block;
+	float: right;
+}
+.right>.per-per-o{
+	height: 40px;
+    background-color: #fe8e03;
+    border-color: #ff9032;
+    box-shadow: -285px 1px 1px #f8ae3a inset;
+	}
+	.right>ul>li{
+	width: 517px;
+}
+.right>ul>li:first-child>i,.right>ul>li:nth-child(2)>i,.right>ul>li:nth-child(4)>i{
+	display: block;
+    width: 32px;
+    height: 28px;
+    float: left;
+    background: url(/home/person/images/uc-ico.png) -127px -34px;
+    margin-top: 24px;
+}
+.right>ul>li:nth-child(3)>i{
+	display: block;
+    width: 32px;
+    height: 28px;
+    float: left;
+    background: url(/home/person/images/uc-ico.png) -127px -2px;
+    margin-top: 24px;
+}
+.right>ul>li>span{
+	display: block;
+	width: 377px;
+	height: 76px;
+}
+
+/*td{
+	text-align: center;
+}*/
+table{
+	position: relative;
+    left: -106px;
+    top: -510px;
+
+}
+
+.uu{
+	position: relative;
+	left: 188px;
+	border: 1px solid #ccc;
+	margin-top: 61px
+
+}
+.uu th{
+		text-align: right;
+		width: 150px;
+		height: 20px;
+}
+.uu tr,.uu td{
+	border: 1px solid #ccc;
+	text-align: center;
+}
+.uu td:last-child,.uu td:nth-last-child(2){
+	width: 40px;
+	height: 40px;
+}

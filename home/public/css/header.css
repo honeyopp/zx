@@ -1,0 +1,253 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+ul li{
+	list-style-type: none;
+}
+a{
+	text-decoration:none;
+}
+
+.header{
+	width: 100%;
+	height: 42px;
+	background-color: #363636;
+}
+.header>.content{
+	width: 1200px;
+	margin:0px auto;
+	height: 42px;
+}
+.header>.content>.left{
+	width: 331px;
+}
+.header>.content>.left>ul{
+	float: left;
+	width: 308px;
+	margin-left: -38px;
+	margin-top: 5px;
+
+}
+.header>.content>.left>ul li{
+	display: inline-block;
+
+}
+.header>.content>.left>ul li a{
+	margin-left:18px;
+	display: inline-block;
+	color: #bfbfbf;
+	font-size: 12px;
+	line-height: 20px;
+
+}
+.header>.content>.left>ul li:last-child a span{
+	display: inline-block;
+	width: 24px;
+	height: 20px;
+  position: relative;
+  top:6px;
+  margin-right: 2px;
+	background:url(../img/head-icons.png) no-repeat 0px -268px;
+	  animation-name:myfirst;
+animation-duration:0.1s;
+animation-timing-function:linear;
+animation-delay:0s;
+animation-iteration-count:infinite;
+animation-direction:alternate;
+animation-play-state:running;
+/* Firefox: */
+-moz-animation-name:myfirst;
+-moz-animation-duration:0.1s;
+-moz-animation-timing-function:linear;
+-moz-animation-delay:0s;
+-moz-animation-iteration-count:infinite;
+-moz-animation-direction:alternate;
+-moz-animation-play-state:running;
+/* Safari and Chrome: */
+-webkit-animation-name:myfirst;
+-webkit-animation-duration:0.1s;
+-webkit-animation-timing-function:linear;
+-webkit-animation-delay:0s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;
+/* Opera: */
+-o-animation-name:myfirst;
+-o-animation-duration:0.1s;
+-o-animation-timing-function:linear;
+-o-animation-delay:0s;
+-o-animation-iteration-count:infinite;
+-o-animation-direction:alternate;
+-o-animation-play-state:running;
+}
+}
+
+
+
+
+
+.header>.content>.right{
+	float: right;
+	width: 250px;
+}
+.header>.content>.right ul{
+	float: right;
+	width: 240px;
+	margin-top: 5px;
+	margin-right: -51px;
+}
+.header>.content>.right ul li{
+	display: inline-block;
+	float: left;
+	margin-right: 0px;
+}
+.header>.content>.right ul li a{
+	margin-left:18px;
+	display: inline-block;
+	color: #bfbfbf;
+	font-size: 12px;
+	line-height: 20px;
+}
+.mod-topbar{
+  max-height: 80px;
+  background-position: top center;
+  display: block;
+  text-indent: -99999px;
+}
+
+.nav{
+    width: 1240px;
+    margin: 0 auto;
+    height: 70px;
+    color: #666;
+}
+.nav>.left img{
+  width: 150px;
+  height: 40px;
+  display: block;
+  float: left;
+  margin-top: 6px;
+}
+.nav>.center{
+  margin-top: 6px;
+  float: left;
+  width: 539px;
+  height: 40px;
+  position: relative;
+  float: left;
+  margin-left: 12px;
+  height: 46px;
+  vertical-align: top;
+  margin-left: 359px;
+}
+.nav>.center>form{
+  width: 537px;
+  height: 40px;
+}
+.nav>.center>form>input:first-child{
+        width: 434px;
+        height: 40px;
+        padding: 0 14px;
+        line-height: 40px;
+        border: 1px solid #23ac38;
+      }
+    .nav>.center>form>input:last-child{
+      display: block;
+        width: 72px;
+        height: 42px;
+        background: url(../img/head-icons.png) no-repeat 20px -113px #23ac38;
+        border: 0;
+        cursor: pointer;
+        margin-left: -4px;
+        float: right;
+      }
+.nav>.center>p{
+      margin-top: 2px;
+      width: 532px;
+      height: 21px;
+}
+.nav>.center>p a{
+  text-decoration: none;
+  width: 60px;
+  height: 14px;
+  display: inline-block;
+  font-size: 10px;
+  color: #848484;
+
+}
+.nav>.center>p a:hover{
+    color: #ed3714;
+  }
+.nav>.center>p a:nth-child(2){
+  width: 24px;
+  height: 14px;
+}
+
+.nav>.right{
+  float: left;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin-left: 40px;
+  margin-top: 6px;
+}
+.nav>.right>div:first-child{
+  width: 40px;
+  height: 30px;
+  float: left;
+  background:url(../img/head-icons.png) no-repeat 13px -17px;
+}
+
+.nav>.right>div:last-child{
+  float: left;
+  width: 81px;
+  height: 30px;
+  margin-top: 12px;
+  font-size: 13px;
+}
+.nav>.right>div:last-child>a:hover{color:#23ac38;}
+
+.nav>.right>div:last-child>a{
+  color: #888;
+}
+.nav>.right>div:last-child>a>span{
+  display: block;
+  float: right;
+  width: 16px;
+  height: 16px;
+}
+
+
+
+
+@keyframes myfirst
+{
+0%   {transform: rotate(-17deg);}
+50%  {transform: rotate(0deg);}
+100% {transform: rotate(36deg);}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+0%   {transform: rotate(-17deg);}
+50%  {transform: rotate(0deg);}
+100% {transform: rotate(36deg);}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+0%   {transform: rotate(-17deg);}
+50%  {transform: rotate(0deg);}
+100% {transform: rotate(36deg);}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+0%   {transform: rotate(-17deg);}
+50%  {transform: rotate(0deg);}
+100% {transform: rotate(36deg);}
+}

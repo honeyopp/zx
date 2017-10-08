@@ -1,0 +1,70 @@
+
+.classprice li{
+		display: inline-block;
+		margin-left: 24px;
+		color: #848484;
+	}
+	.classprice li{
+		margin-top: 30px;
+		display: inline-block;
+		margin-left: 24px;
+		color: #848484;
+
+	}
+	.classclassname{
+		padding-left:40px;
+		margin-bottom: 5px;
+		color: #848484;
+		 }
+			
+	.classclassname a{
+	color: #848484;;
+
+	}
+	.classbrand li{
+		
+	}
+	.classbrand li{
+		margin-top: 42px;
+		display: block;
+		margin-left: 80px;
+
+
+	}
+	.classbrand li a{
+		padding-left: 40px;
+		color: #848484;
+	}
+	.classprice,.classbrand{
+		margin-left: -11px;
+	}
+	.goods-detail{
+		display: inline-block;
+		margin-left: 96px;
+		margin-top: 52px;
+		margin-bottom: 41px;
+		color: #848484;
+
+	}
+	.goods-detail img{
+		width:164px;
+		height: 164px;
+		overflow: hidden;
+		margin-left: 10px;
+		-webkit-transition: -webkit-transform 2s;
+		-moz-transition: -moz-transform 2s;
+		-ms-transition: -ms-transform 2s;
+		-o-transition: -o-transform 2s;
+		transition: transform 2s;	
+	}
+	.goods-detail img:hover{
+		
+		transform:scale(1.1,1.1);		
+	}
+	.goods>.left:hover{
+		box-shadow: 1px 2px 3px  #ccc;
+	}
+	.goods-detail p{
+		text-align: center;
+		color: #868686;
+	}

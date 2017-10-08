@@ -1,0 +1,51 @@
+.lleftmenu>.menu{
+  width: 150px;
+  margin-left: 128px;
+  position: relative;
+  /*top: 0px;*/
+  /*left: 70px;*/
+  line-height: 50px;
+  background-color: rgba(255,255,255,0.6);
+  z-index: 30;
+
+}
+.lleftmenu>.menu li{
+	text-align: center;
+
+}
+.lleftmenu>.menu li:hover{
+  background-color: #eee;
+
+}
+.lleftmenu>.menu li a{
+	   color: #666;
+	   font-size: 15px;
+	
+}
+
+
+.phonebr{
+    position: absolute;
+   top: 16px;
+    left: 150px;
+    width: 821px;
+    height: 447px;
+    background-color: rgba(255,255,255,0.6);
+    display: none;
+}
+/*.phonebr>ul li{
+  display: inline-block;
+  
+}*/
+.phonebr>ul{
+  line-height: 200px;
+  padding-left: 40px;
+}
+
+
+.aaa{
+  position: absolute;
+    top: 258px;
+    left: 4px;
+    z-index: -53px;
+}
